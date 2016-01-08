@@ -1,0 +1,31 @@
+{
+  "name": "lrm-mapzen",
+  "version": "0.1.6",
+  "description": "Support for Turn By Turn by Mapzen in Leaflet Routing Machine",
+  "keywords": [
+    "leaflet",
+    "routing",
+    "valhalla",
+    "turn by turn",
+    "mapzen"
+  ],
+  "author": "Hanbyul Jo <hanbyul@mapzen.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapzen/lrm-mapzen.git"
+  },
+  "homepage": "https://github.com/mapzen/lrm-mapzen",
+  "bugs": {
+    "url": "https://github.com/mapzen/lrm-mapzen/issues"
+  },
+  "npmName": "lrm-mapzen",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
+}
